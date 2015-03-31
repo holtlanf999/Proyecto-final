@@ -1,13 +1,132 @@
 @import url(http://fonts.googleapis.com/css?family=Signika:300,400,600);
-/* line 3, ../scss/basics.scss */
+@font-face {
+  font-family: 'rex_bold_';
+  src: url("../fonts/rex-bold-webfont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'rex_light';
+  src: url("../fonts/rex-light-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 17, ../scss/basics.scss */
 body {
   background-image: url(../img/project-background.jpg);
+  background-size: 100%;
   color: #fff;
-  font-family: 'Signika', sans-serif;
+  font-family: "Signika", sans-serif;
+}
+
+/* line 24, ../scss/basics.scss */
+.main-header {
+  background-image: url(../img/header-background.jpg);
+  background-size: 100%;
+  height: 65em;
+  text-align: center;
+}
+
+/* line 31, ../scss/basics.scss */
+h1 {
+  border-bottom: 1px solid #fff;
+  font-size: 5rem;
+  margin: 5em auto 0 auto;
+  overflow: hidden;
+  width: 60%;
+  font-family: 'rex_bold_';
+}
+
+/* line 40, ../scss/basics.scss */
+h3 {
+  color: #ffa100;
+  font-size: 3rem;
   font-weight: 100;
+  font-family: 'rex_bold_';
+}
+
+/* line 47, ../scss/basics.scss */
+p {
+  font-size: 1.5rem;
+}
+
+/* line 54, ../scss/basics.scss */
+.section-title h4 {
+  font-family: rex-bold;
+  font-size: 1.5em;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 0.8em;
+}
+/* line 62, ../scss/basics.scss */
+.section-title img {
+  margin: 0.4em 0 0 0;
+}
+
+/* line 1, ../scss/placeholders.scss */
+.nav-link, .dropdown-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 6, ../scss/placeholders.scss */
+nav > ul > li .dropdown-items {
+  position: absolute;
+  top: 3em;
+  overflow: hidden;
+  background-color: #353535;
+}
+
+/* line 13, ../scss/placeholders.scss */
+.section-title {
+  background-color: #4c4c4c;
+  height: 6em;
+  text-align: center;
 }
 
 /* line 1, ../scss/nav.scss */
 nav {
   background-color: #4c4c4c;
+  height: 5em;
+  width: 100%;
+}
+/* line 6, ../scss/nav.scss */
+nav .logo {
+  float: left;
+  height: 3em;
+  margin: 1%;
+  width: 5em;
+}
+/* line 13, ../scss/nav.scss */
+nav > ul {
+  float: right;
+  list-style-type: none;
+  margin: 1em 2% 0 0;
+  width: 38%;
+  font-size: 1.5em;
+}
+/* line 20, ../scss/nav.scss */
+nav > ul > li {
+  float: left;
+  margin: 0 2% 0 0;
+}
+/* line 24, ../scss/nav.scss */
+nav > ul > li .dropdown-items {
+  line-height: 1.4em;
+  list-style-type: none;
+  margin-top: 0.2em;
+  padding: 0;
+  max-height: 0;
+}
+
+/* line 38, ../scss/nav.scss */
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* line 43, ../scss/nav.scss */
+.dropdown-link {
+  display: inline-block;
 }
