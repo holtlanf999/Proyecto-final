@@ -6,8 +6,3 @@ body {
   font-family: 'Signika', sans-serif;
   font-weight: 100;
 }
-
-/* line 1, ../scss/nav.scss */
-nav {
-  background-color: #4c4c4c;
-}
