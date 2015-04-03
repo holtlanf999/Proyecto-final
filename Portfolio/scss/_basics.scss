@@ -32,16 +32,15 @@ body{
 		margin: 0 auto;
 		width: 40%;
 	}
-
 }
-
 
 .section-title{
 	@extend %section-divide;
 
 	h4{
-		font-family: rex-bold;
+		font-family: $font-content;
 		font-size: 1.5em;
+		font-weight: 300;
 		margin: 0 auto;
 		overflow: hidden;
 		padding-top: 0.8em;
@@ -52,14 +51,29 @@ body{
 	}
 }
 
-.app-rectangle{
+#app-1{
+	background-image: url(../img/app-centinel1.jpg);
+}
+
+#app-2{
+	background-image: url(../img/app-centinel2.jpg);
+}
+
+#app-3{
+	background-image: url(../img/app-skoon.jpg);
+}
+
+.app-box{
 	height:500px;
-	width:1040px;
+	width: 100%;
+	overflow: hidden;
 }
 
 .app-title{
-	font-size: 2rem;
-	margin:0 auto;
+	// display: inline-block;
+	font-family: $font-titles;
+	font-size: 5rem;
+	margin: 2.5em 0 2.5em 0;
 	text-align: center;
-	width: 80%;
+	width: 100%;
 }

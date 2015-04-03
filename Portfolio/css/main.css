@@ -37,17 +37,49 @@ body {
   width: 40%;
 }
 
-/* line 42, ../scss/_basics.scss */
+/* line 40, ../scss/_basics.scss */
 .section-title h4 {
-  font-family: rex-bold;
+  font-family: "Signika", sans-serif;
   font-size: 1.5em;
+  font-weight: 300;
   margin: 0 auto;
   overflow: hidden;
   padding-top: 0.8em;
 }
-/* line 50, ../scss/_basics.scss */
+/* line 49, ../scss/_basics.scss */
 .section-title img {
   margin: 0.4em 0 0 0;
+}
+
+/* line 54, ../scss/_basics.scss */
+#app-1 {
+  background-image: url(../img/app-centinel1.jpg);
+}
+
+/* line 58, ../scss/_basics.scss */
+#app-2 {
+  background-image: url(../img/app-centinel2.jpg);
+}
+
+/* line 62, ../scss/_basics.scss */
+#app-3 {
+  background-image: url(../img/app-skoon.jpg);
+}
+
+/* line 66, ../scss/_basics.scss */
+.app-box {
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 72, ../scss/_basics.scss */
+.app-title {
+  font-family: rex_bold_;
+  font-size: 5rem;
+  margin: 2.5em 0 2.5em 0;
+  text-align: center;
+  width: 100%;
 }
 
 /* line 1, ../scss/_placeholders.scss */
