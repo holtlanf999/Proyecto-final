@@ -6,8 +6,17 @@
 }
 
 @font-face {
+    font-family: 'rex_bold_';
+    src: url('../fonts/rex-bold-webfont.ttf') format('truetype');
+    src: url('../fonts/rex-bold-webfont.woff') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'rex_light';
     src: url('../fonts/rex-light-webfont.ttf') format('truetype');
+    src: url('../fonts/rex-light-webfont.woff') format('truetype');
     font-weight: normal;
     font-style: normal;
 }

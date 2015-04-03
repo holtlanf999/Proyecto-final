@@ -1,0 +1,5 @@
+@mixin app-box($overlay, $font-titles, $img-size){
+	background-size: $background-size;
+	background-color: $overlay;
+	font-family: $font-titles;
+}
