@@ -64,16 +64,49 @@ body{
 }
 
 .app-box{
-	height:500px;
-	width: 100%;
+	height: $box-height;
+	margin: 0 0 0 0;
 	overflow: hidden;
+	width: 100%;
+
+	h2{
+		@extend %box-title;
+	}
+
+	a {
+		@extend %box-link;
+	}
 }
 
-.app-title{
-	// display: inline-block;
-	font-family: $font-titles;
-	font-size: 5rem;
-	margin: 2.5em 0 2.5em 0;
+#mywork-websites {
+	background-color: #000;
+}
+
+#site-1 {
+	background-image: url(../img/loquesea.jpg);
+}
+
+#site-2 {
+	background-image: url(../img/loquesea.jpg);
+}
+
+#site-3 {
+	background-image: url(../img/loquesea.jpg);
+}
+
+.site-box{
+	background-color: $primary-color;
+	height: $box-height;
+	margin: 2em auto;
+	overflow: hidden;
 	text-align: center;
-	width: 100%;
+	width: 70%;
+
+	h2 {
+		@extend %box-title;
+	}
+
+	a{
+		@extend %box-link;
+	}
 }

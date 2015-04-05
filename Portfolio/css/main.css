@@ -69,21 +69,43 @@ body {
 /* line 66, ../scss/_basics.scss */
 .app-box {
   height: 500px;
-  width: 100%;
+  margin: 0 0 0 0;
   overflow: hidden;
+  width: 100%;
 }
 
-/* line 72, ../scss/_basics.scss */
-.app-title {
-  font-family: rex_bold_;
-  font-size: 5rem;
-  margin: 2.5em 0 2.5em 0;
+/* line 81, ../scss/_basics.scss */
+#mywork-websites {
+  background-color: #000;
+}
+
+/* line 85, ../scss/_basics.scss */
+#site-1 {
+  background-image: url(../img/loquesea.jpg);
+}
+
+/* line 89, ../scss/_basics.scss */
+#site-2 {
+  background-image: url(../img/loquesea.jpg);
+}
+
+/* line 93, ../scss/_basics.scss */
+#site-3 {
+  background-image: url(../img/loquesea.jpg);
+}
+
+/* line 97, ../scss/_basics.scss */
+.site-box {
+  background-color: #4c4c4c;
+  height: 500px;
+  margin: 2em auto;
+  overflow: hidden;
   text-align: center;
-  width: 100%;
+  width: 70%;
 }
 
 /* line 1, ../scss/_placeholders.scss */
-.nav-link, .dropdown-link {
+.app-box a, .site-box a, .nav-link, .dropdown-link {
   color: #fff;
   text-decoration: none;
 }
@@ -101,6 +123,29 @@ nav > ul > li .dropdown-items {
   background-color: #4c4c4c;
   height: 6em;
   text-align: center;
+}
+
+/* line 19, ../scss/_placeholders.scss */
+.app-box h2, .site-box h2 {
+  opacity: 0.7;
+  font-family: rex_bold_;
+  font-size: 5rem;
+  margin: 2.2em 0 0 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 28, ../scss/_placeholders.scss */
+.app-box a, .site-box a {
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 2px solid #fff;
+  font-size: 2rem;
+  display: block;
+  margin: 0.5em auto;
+  opacity: 0.8;
+  overflow: hidden;
+  text-align: center;
+  width: 10%;
 }
 
 /* line 1, ../scss/_nav.scss */
