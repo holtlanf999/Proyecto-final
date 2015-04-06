@@ -1,109 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Signika:300,400,600);
-/* line 1, ../scss/_basics.scss */
-body {
-  background-image: url(../img/project-background.jpg);
-  background-size: 100%;
-  color: #fff;
-  font-family: "Signika", sans-serif;
-}
-
-/* line 8, ../scss/_basics.scss */
-.main-header {
-  background-image: url(../img/header-background.jpg);
-  background-size: 100%;
-  height: 65em;
-  text-align: center;
-}
-/* line 14, ../scss/_basics.scss */
-.main-header h1 {
-  border-bottom: 1px solid #fff;
-  font-family: 'rex_bold_';
-  font-size: 5rem;
-  margin: 4em auto 0 auto;
-  overflow: hidden;
-  width: 60%;
-}
-/* line 23, ../scss/_basics.scss */
-.main-header h3 {
-  color: #ffa100;
-  font-family: 'rex_bold_';
-  font-size: 3rem;
-  font-weight: 100;
-}
-/* line 30, ../scss/_basics.scss */
-.main-header p {
-  font-size: 2.5rem;
-  margin: 0 auto;
-  width: 40%;
-}
-
-/* line 40, ../scss/_basics.scss */
-.section-title h4 {
-  font-family: "Signika", sans-serif;
-  font-size: 1.5em;
-  font-weight: 300;
-  margin: 0 auto;
-  overflow: hidden;
-  padding-top: 0.8em;
-}
-/* line 49, ../scss/_basics.scss */
-.section-title img {
-  margin: 0.4em 0 0 0;
-}
-
-/* line 54, ../scss/_basics.scss */
-#app-1 {
-  background-image: url(../img/app-centinel1.jpg);
-}
-
-/* line 58, ../scss/_basics.scss */
-#app-2 {
-  background-image: url(../img/app-centinel2.jpg);
-}
-
-/* line 62, ../scss/_basics.scss */
-#app-3 {
-  background-image: url(../img/app-skoon.jpg);
-}
-
-/* line 66, ../scss/_basics.scss */
-.app-box {
-  height: 500px;
-  margin: 0 0 0 0;
-  overflow: hidden;
-  width: 100%;
-}
-
-/* line 81, ../scss/_basics.scss */
-#mywork-websites {
-  background-color: #000;
-}
-
-/* line 85, ../scss/_basics.scss */
-#site-1 {
-  background-image: url(../img/loquesea.jpg);
-}
-
-/* line 89, ../scss/_basics.scss */
-#site-2 {
-  background-image: url(../img/loquesea.jpg);
-}
-
-/* line 93, ../scss/_basics.scss */
-#site-3 {
-  background-image: url(../img/loquesea.jpg);
-}
-
-/* line 97, ../scss/_basics.scss */
-.site-box {
-  background-color: #4c4c4c;
-  height: 500px;
-  margin: 2em auto;
-  overflow: hidden;
-  text-align: center;
-  width: 70%;
-}
-
 /* line 1, ../scss/_placeholders.scss */
 .app-box a, .site-box a, .nav-link, .dropdown-link {
   color: #fff;
@@ -118,14 +12,14 @@ nav > ul > li .dropdown-items {
   background-color: #353535;
 }
 
-/* line 13, ../scss/_placeholders.scss */
+/* line 14, ../scss/_placeholders.scss */
 .section-title {
   background-color: #4c4c4c;
   height: 6em;
   text-align: center;
 }
 
-/* line 19, ../scss/_placeholders.scss */
+/* line 22, ../scss/_placeholders.scss */
 .app-box h2, .site-box h2 {
   opacity: 0.7;
   font-family: rex_bold_;
@@ -135,17 +29,39 @@ nav > ul > li .dropdown-items {
   width: 100%;
 }
 
-/* line 28, ../scss/_placeholders.scss */
+/* line 33, ../scss/_placeholders.scss */
 .app-box a, .site-box a {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0);
   border: 2px solid #fff;
   font-size: 2rem;
   display: block;
   margin: 0.5em auto;
-  opacity: 0.8;
   overflow: hidden;
   text-align: center;
   width: 10%;
+}
+
+@font-face {
+  font-family: 'rex_bold_';
+  src: url("../fonts/rex-bold-webfont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'rex_bold_';
+  src: url("../fonts/rex-bold-webfont.ttf") format("truetype");
+  src: url("../fonts/rex-bold-webfont.woff") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'rex_light';
+  src: url("../fonts/rex-light-webfont.ttf") format("truetype");
+  src: url("../fonts/rex-light-webfont.woff") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* line 1, ../scss/_nav.scss */
@@ -193,25 +109,152 @@ nav > ul > li .dropdown-items {
   display: inline-block;
 }
 
-@font-face {
-  font-family: 'rex_bold_';
-  src: url("../fonts/rex-bold-webfont.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
+/* line 1, ../scss/_images.scss */
+#app-1 {
+  background-image: url(../img/app-centinel1.jpg);
 }
 
-@font-face {
-  font-family: 'rex_bold_';
-  src: url("../fonts/rex-bold-webfont.ttf") format("truetype");
-  src: url("../fonts/rex-bold-webfont.woff") format("truetype");
-  font-weight: bold;
-  font-style: normal;
+/* line 5, ../scss/_images.scss */
+#app-2 {
+  background-image: url(../img/app-centinel2.jpg);
 }
 
-@font-face {
-  font-family: 'rex_light';
-  src: url("../fonts/rex-light-webfont.ttf") format("truetype");
-  src: url("../fonts/rex-light-webfont.woff") format("truetype");
-  font-weight: normal;
-  font-style: normal;
+/* line 9, ../scss/_images.scss */
+#app-3 {
+  background-image: url(../img/app-skoon.jpg);
+}
+
+/* line 13, ../scss/_images.scss */
+#site-1 {
+  background-image: url(../img/iluminada-header.jpg);
+  background-size: 100%;
+}
+
+/* line 18, ../scss/_images.scss */
+#site-2 {
+  background-image: url(../img/iluminada-header.jpg);
+}
+
+/* line 22, ../scss/_images.scss */
+#site-3 {
+  background-image: url(../img/iluminada-header.jpg);
+}
+
+/* line 1, ../scss/_basics.scss */
+body {
+  background-image: url(../img/project-background.jpg);
+  background-size: 100%;
+  color: #fff;
+  font-family: "Signika", sans-serif;
+}
+
+/* line 9, ../scss/_basics.scss */
+.main-header {
+  background-image: url(../img/header-background.jpg);
+  background-size: 100%;
+  height: 65em;
+  text-align: center;
+}
+/* line 15, ../scss/_basics.scss */
+.main-header h1 {
+  border-bottom: 1px solid #fff;
+  font-family: 'rex_bold_';
+  font-size: 5rem;
+  margin: 4em auto 0 auto;
+  overflow: hidden;
+  width: 60%;
+}
+/* line 24, ../scss/_basics.scss */
+.main-header h3 {
+  color: #ffa100;
+  font-family: 'rex_bold_';
+  font-size: 3rem;
+  font-weight: 100;
+}
+/* line 31, ../scss/_basics.scss */
+.main-header p {
+  font-size: 2.5rem;
+  margin: 0 auto;
+  width: 40%;
+}
+
+/* line 41, ../scss/_basics.scss */
+.section-title h4 {
+  font-family: "Signika", sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 0.8em;
+}
+/* line 50, ../scss/_basics.scss */
+.section-title img {
+  margin: 0.4em 0 0 0;
+}
+
+/* line 56, ../scss/_basics.scss */
+.app-box {
+  height: 500px;
+  width: 100%;
+  margin: 0 0 0 0;
+  overflow: hidden;
+}
+
+/* line 71, ../scss/_basics.scss */
+#mywork-websites {
+  background-color: #000;
+  padding-bottom: 2em;
+}
+
+/* line 77, ../scss/_basics.scss */
+.site-box {
+  height: 500px;
+  width: 70%;
+  background-color: #4c4c4c;
+  margin: 1.5em auto 1.5em auto;
+  overflow: hidden;
+}
+
+/* line 93, ../scss/_basics.scss */
+#aboutme {
+  height: 500px;
+  width: 100%;
+  background-color: #eaff00;
+  background-image: url(../img/aboutme-background.png);
+  background-size: 100%;
+  color: #000;
+  opacity: 0.8;
+  text-align: center;
+}
+/* line 102, ../scss/_basics.scss */
+#aboutme h2 {
+  opacity: 1;
+  font-family: rex_bold_;
+  font-size: 2.5rem;
+  margin: 0.8em auto;
+  text-align: center;
+  width: 100%;
+  color: #4c4c4c;
+  overflow: hidden;
+  display: inline-block;
+}
+/* line 109, ../scss/_basics.scss */
+#aboutme img {
+  height: 65%;
+  width: 20%;
+  display: block;
+  float: right;
+  margin: 0 15% 0 0;
+}
+/* line 116, ../scss/_basics.scss */
+#aboutme p {
+  height: 60%;
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-family: "Signika", sans-serif;
+  font-size: 1.8rem;
+  margin: 0em 0 0 8%;
+  padding: 1.5%;
+  text-align: left;
 }

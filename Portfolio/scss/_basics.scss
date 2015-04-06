@@ -3,6 +3,7 @@ body{
 	background-size: 100%;
 	color: #fff;
 	font-family: $font-content;
+
 }
 
 .main-header{
@@ -51,23 +52,11 @@ body{
 	}
 }
 
-#app-1{
-	background-image: url(../img/app-centinel1.jpg);
-}
-
-#app-2{
-	background-image: url(../img/app-centinel2.jpg);
-}
-
-#app-3{
-	background-image: url(../img/app-skoon.jpg);
-}
-
+//for each app container box
 .app-box{
-	height: $box-height;
+	@include setsize(500px, 100%);
 	margin: 0 0 0 0;
 	overflow: hidden;
-	width: 100%;
 
 	h2{
 		@extend %box-title;
@@ -77,30 +66,19 @@ body{
 		@extend %box-link;
 	}
 }
+//for each app container box
 
 #mywork-websites {
 	background-color: #000;
+	padding-bottom: 2em;
 }
 
-#site-1 {
-	background-image: url(../img/loquesea.jpg);
-}
-
-#site-2 {
-	background-image: url(../img/loquesea.jpg);
-}
-
-#site-3 {
-	background-image: url(../img/loquesea.jpg);
-}
-
+// for each site container box
 .site-box{
+	@include setsize(500px, 70%);
 	background-color: $primary-color;
-	height: $box-height;
-	margin: 2em auto;
+	margin: 1.5em auto 1.5em auto;
 	overflow: hidden;
-	text-align: center;
-	width: 70%;
 
 	h2 {
 		@extend %box-title;
@@ -108,5 +86,41 @@ body{
 
 	a{
 		@extend %box-link;
+	}
+}
+// for each site container box
+
+#aboutme{
+	@include setsize(500px, 100%);
+	background-color: #eaff00;
+	background-image: url(../img/aboutme-background.png);
+	background-size: 100%;
+	color: #000;
+	opacity: 0.8;
+	text-align: center;
+
+	h2{
+		@include box-title(1, $font-titles, 2.5rem, 0.8em auto, center, 100%);
+		color: $primary-color;
+		overflow: hidden;
+		display: inline-block;
+	}
+
+	img{
+		@include setsize(65%, 20%); 
+		display: block;
+		float: right;
+		margin: 0 15% 0 0;
+	}
+
+	p{
+		@include setsize(60%, 40%); 
+		background-color: rgba(0, 0, 0, 0.8);
+		color: #fff;
+		font-family: $font-content;
+		font-size: 1.8rem;
+		margin: 0em 0 0 8%;
+		padding: 1.5%;
+		text-align: left;
 	}
 }

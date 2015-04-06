@@ -1,4 +1,13 @@
-@mixin app-box($overlay, $text-decoration) {
-	background-opacity: $overlay;
-	text-decoration: $text-decoration;
+@mixin setsize($height, $width){
+	height: $height;
+	width: $width;
+}
+
+@mixin box-title($op, $ff, $fs, $margin, $text-align, $width){
+	opacity: $op;
+	font-family: $ff;
+	font-size: $fs;
+	margin: $margin;
+	text-align: $text-align;
+	width: $width;
 }

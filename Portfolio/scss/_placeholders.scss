@@ -10,12 +10,15 @@
 	background-color: #353535;
 }
 
+// apps & work section divisor
 %section-divide{
 	background-color: $primary-color;
 	height: 6em;
 	text-align: center;
 }
+// apps & work section divisor
 
+// Big title for apps & site sections
 %box-title{
 	opacity: 0.7;
 	font-family: $font-titles;
@@ -24,7 +27,9 @@
 	text-align: center;
 	width: 100%;
 }
+// Big title for apps & site sections
 
+// style for "More" button
 %box-link{
 	@extend %link-reset;
 	background-color: rgba(0, 0, 0, 0.8);
@@ -32,8 +37,8 @@
 	font-size: 2rem;
 	display: block;
 	margin: 0.5em auto;
-	opacity: 0.8;
 	overflow: hidden;
 	text-align: center;
 	width: 10%;
 }
+// style for "More" button
