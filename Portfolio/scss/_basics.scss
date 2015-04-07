@@ -255,36 +255,42 @@ h3{
 }
 
 .app-design-frame{
-	padding: 2em 8%;
+	padding: 2em 5%;
 	overflow: hidden;
 
 	p{
-		@include setsize(auto, 40%);
+		@include setsize(auto, 45%);
 		float: left;
 		margin: 0 auto;
-		padding: 0;
+		padding: 1em;
 	}
 
 	img{
-		@include setsize(auto, 40%);
+		@include setsize(auto, 45%);
 		float: right;
 		margin: 0 auto;
-		padding: 0;
+		padding: 1em;
 	}
 }
 
 article[class="left-side"]{
-	@include setsize(auto, 40%);
-	@include content-p(#c4c4c4, left, 1em 2.5%, left);
+	@include setsize(auto, 45%);
+	@include content-p(#c4c4c4, left, 1em auto, left);
 	display: inline-block;
 	overflow: hidden;
 
 	p{
 		@include setsize(auto, 100%);
+		float: left;
+		margin: 0 auto;
+		padding: 1em;
 	}
 
 	img{
 		@include setsize(auto, 100%);
+		float: left;
+		margin: 0 auto;
+		padding: 1em;
 	}
 
 }
