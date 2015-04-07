@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Signika:300);
 /* line 1, ../scss/_placeholders.scss */
 .app-box a, .site-box a, .nav-link, .dropdown-link {
   color: #fff;
@@ -139,12 +140,14 @@ nav > ul > li .dropdown-items {
 
 /* line 18, ../scss/_images.scss */
 #site-2 {
-  background-image: url(../img/iluminada-header.jpg);
+  background-image: url(../img/centinelasite1.jpg);
+  background-size: 100%;
 }
 
-/* line 22, ../scss/_images.scss */
+/* line 23, ../scss/_images.scss */
 #site-3 {
-  background-image: url(../img/iluminada-header.jpg);
+  background-image: url(../img/Infusionheader.jpg);
+  background-size: 100%;
 }
 
 /* line 1, ../scss/_basics.scss */
@@ -237,7 +240,7 @@ body {
 #aboutme h2 {
   opacity: 1;
   font-family: rex_bold_;
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin: 0.8em auto;
   text-align: center;
   width: 100%;
@@ -252,24 +255,25 @@ body {
 }
 /* line 113, ../scss/_basics.scss */
 #aboutme p {
-  height: 8.5em;
+  height: 8em;
   width: 40%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0);
+  display: inline-block;
   color: #fff;
   float: right;
   font-family: "Signika", sans-serif;
   font-size: 1.5rem;
-  margin: 1em 13% 0 0;
+  margin: 1.7em 13% 0 0;
   padding: 1%;
   text-align: left;
 }
 
-/* line 126, ../scss/_basics.scss */
+/* line 127, ../scss/_basics.scss */
 #experience {
   height: 500px;
   width: 100%;
 }
-/* line 129, ../scss/_basics.scss */
+/* line 130, ../scss/_basics.scss */
 #experience h2 {
   opacity: 1;
   font-family: rex_bold_;
@@ -278,14 +282,14 @@ body {
   text-align: center;
   width: 100%;
 }
-/* line 134, ../scss/_basics.scss */
+/* line 135, ../scss/_basics.scss */
 #experience img {
   height: 15em;
   width: 24%;
   float: right;
   margin: 3em 15% 0 0;
 }
-/* line 140, ../scss/_basics.scss */
+/* line 141, ../scss/_basics.scss */
 #experience p {
   height: auto;
   width: 40%;
@@ -295,13 +299,13 @@ body {
   overflow: hidden;
 }
 
-/* line 149, ../scss/_basics.scss */
+/* line 150, ../scss/_basics.scss */
 #contactme {
   height: 500px;
   width: 100%;
   background-color: #4c4c4c;
 }
-/* line 153, ../scss/_basics.scss */
+/* line 154, ../scss/_basics.scss */
 #contactme h2 {
   opacity: 1;
   font-family: rex_bold_;
@@ -311,17 +315,17 @@ body {
   width: 100%;
   color: #fff;
 }
-/* line 159, ../scss/_basics.scss */
+/* line 160, ../scss/_basics.scss */
 #contactme form {
   height: 400px;
   width: 100%;
   color: #000;
 }
-/* line 163, ../scss/_basics.scss */
+/* line 164, ../scss/_basics.scss */
 #contactme form label {
   display: none;
 }
-/* line 167, ../scss/_basics.scss */
+/* line 168, ../scss/_basics.scss */
 #contactme form input {
   height: 40px;
   width: 20%;
@@ -329,7 +333,7 @@ body {
   float: left;
   margin: 2em auto 0 25%;
 }
-/* line 174, ../scss/_basics.scss */
+/* line 175, ../scss/_basics.scss */
 #contactme form textarea {
   height: 250px;
   width: 30%;
@@ -338,13 +342,13 @@ body {
   margin: 0 15% 0 0;
 }
 
-/* line 184, ../scss/_basics.scss */
+/* line 185, ../scss/_basics.scss */
 #clients {
   height: 500px;
   width: 100%;
   background-color: #000;
 }
-/* line 188, ../scss/_basics.scss */
+/* line 189, ../scss/_basics.scss */
 #clients h2 {
   opacity: 1;
   font-family: rex_bold_;
@@ -354,7 +358,7 @@ body {
   width: 100%;
   color: #fff;
 }
-/* line 194, ../scss/_basics.scss */
+/* line 195, ../scss/_basics.scss */
 #clients img {
   height: 12em;
   width: 15%;
@@ -363,14 +367,14 @@ body {
   overflow: hidden;
 }
 
-/* line 202, ../scss/_basics.scss */
+/* line 203, ../scss/_basics.scss */
 footer {
   height: 5em;
   width: 100%;
   background-color: #4c4c4c;
   text-align: center;
 }
-/* line 207, ../scss/_basics.scss */
+/* line 208, ../scss/_basics.scss */
 footer a {
   height: 3em;
   width: 3%;
@@ -378,12 +382,12 @@ footer a {
   margin: 0 1% 0 0;
   padding: 1em 0 0 0;
 }
-/* line 214, ../scss/_basics.scss */
+/* line 215, ../scss/_basics.scss */
 footer a img {
   height: 3em;
   width: 100%;
 }
-/* line 219, ../scss/_basics.scss */
+/* line 220, ../scss/_basics.scss */
 footer p {
   display: block;
   font-size: 0.7rem;
